@@ -22,6 +22,7 @@ app.controller("MailSendingController", ['$scope', '$state', '$timeout', '$rootS
                 var ccCheckList = document.getElementById("carbonCopyName");
                 var ccCheckbox = document.createElement("input");
                 ccCheckbox.type = "checkbox";
+                ccCheckbox.id = "ccCheckbox_"+i;
                 ccCheckbox.name = "ccCheckboxName";
                 ccCheckbox.value = i;
                 ccCheckbox.checked = true;

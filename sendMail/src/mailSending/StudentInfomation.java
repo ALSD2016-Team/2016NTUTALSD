@@ -155,26 +155,8 @@ public class StudentInfomation {
 	}
 
 	public void generateFakeDataThree() {
-		studentsName_.add("Alice");
-		studentsName_.add("Bob");
-		studentsName_.add("Chris");
-		studentsName_.add("David");
-		studentsName_.add("Edison");
-		studentsName_.add("Frank");
-		studentsName_.add("George");
-		studentsName_.add("Harry");
-		studentsName_.add("Ivan");
-		studentsName_.add("Jack");
+		studentsName_.add("Orange");
+		mailAddresses_.add("ntutalsd1221@gmail.com");
 
-		mailAddresses_.add("Alice@clarence.party");
-		mailAddresses_.add("Bob@clarence.party");
-		mailAddresses_.add("Chris@clarence.party");
-		mailAddresses_.add("David@clarence.party");
-		mailAddresses_.add("Edison@clarence.party");
-		mailAddresses_.add("Frank@clarence.party");
-		mailAddresses_.add("George@clarence.party");
-		mailAddresses_.add("Harry@clarence.party");
-		mailAddresses_.add("Ivan@clarence.party");
-		mailAddresses_.add("Jack@clarence.party");
 	}
 }

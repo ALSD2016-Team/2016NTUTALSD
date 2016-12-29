@@ -9,7 +9,7 @@ public class Classes {
 		//generate fake data
 		ClassInfomation firstClass=new ClassInfomation("Scurm敏捷方法實作班");
 		ClassInfomation secondClass=new ClassInfomation("軟體重構入門實作班");
-		ClassInfomation thirdClass=new ClassInfomation("Design Patterns這樣學就會了–入門實作班");
+		ClassInfomation thirdClass=new ClassInfomation("SendMailTest");
 		
 		firstClass.getStudentsInfomation().generateFakeDataOne();
 		secondClass.getStudentsInfomation().generateFakeDataTwo();
