@@ -1,6 +1,9 @@
 # 2016NTUTALSD
 # Run Docker container
 
+#Live Link: 
+http://140.124.181.126:9092/
+
 #certification
 
 1. docker pull disc9562/alsddocker_certification
