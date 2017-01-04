@@ -1,5 +1,26 @@
 app.controller("CertificationController", ['$scope', '$state', '$timeout', '$rootScope',
     function($scope, $state, $timeout, $rootScope) {
+        $scope.form = {
+            studentName: "陳泰迪",
+            certificationId: "SCRUM1603-33",
+            courceDate: "於 2016 年 4 月 16、17、23 日-33",
+            courceName: "Design Patterns 這樣學就會了：入門實作班",
+            courceDuration: "全期共十八小時研習期滿，特此證明",
+            certificationDate: "2016 年 4 月 23 日",
+
+
+        }
+
+        $scope.isDisabled = false;
+
+        $scope.$watch('form', function(newValue, oldValue) {
+            if ($scope.form.studentName && $scope.form.certificationId && $scope.form.courceDate && $scope.form.courceName && $scope.form.courceDuration && $scope.form.certificationDate){
+                $scope.isDisabled = false
+            }else {
+                $scope.isDisabled = true
+            }
+
+        },true);
 
         var ClickGenerateButton = function() {
             var studentName = document.getElementById('studentName').value;
